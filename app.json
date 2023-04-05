@@ -1,0 +1,36 @@
+{
+    "name": "SuperConvertor",
+    "description": "HELLLLLL",
+    "stack": "container",
+    "keywords": [
+      "telegram"
+      
+    ],
+    "website": "https://github.com/LieStage/File-Converter-Botx",
+    "repository": "https://github.com/LieStage/File-Converter-Botx",
+    "env": {
+            "TOKEN": {
+            "description": "Your bot token.",
+            "required": true
+        },
+        "ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": true
+        },
+        "HASH": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": true
+        }
+
+},
+    "addons": [],
+    "buildpacks": [{
+        "url": "heroku/python"
+    }],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "eco"
+        }
+    }
+}
