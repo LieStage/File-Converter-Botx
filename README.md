@@ -161,3 +161,13 @@ docker run File-Converter
 - for **TEXT-to-MUSIC** it uses **[Riffusion](https://github.com/riffusion/riffusion) hosted on [HuggingFace](https://huggingface.co/spaces/fffiloni/spectrogram-to-music)**
 
 - for **BG REMOVE** it uses **[MODNet](https://github.com/ZHKKKe/MODNet) hosted on [HuggingFace](https://huggingface.co/spaces/nateraw/background-remover)**
+
+
+<details><summary>Deploy To Heroku</summary>
+<p>
+<br>
+<a href="https://heroku.com/deploy?template=https://github.com/LieStage/File-Converter-Botx">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+</a>
+</p>
+</details>
